@@ -24,11 +24,16 @@ div {
     align-items: center;
 
     height: 50vh;
-    width: 50vw;
+    width: 75vw;
     position: absolute;
     z-index: 1;
     left: 50%;
-    margin-left: -25vw;
+    margin-left: -37.5vw;
     top: 50%;
     margin-top: -25vh;
+}
+
+h1::after {
+    content: 'Coming Soon';
+    font-size: 10vh;
 }
